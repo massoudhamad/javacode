@@ -137,14 +137,40 @@ public class NLecture01 {
 
         System.out.println("Summation of two Numbers is: "+calculateSum(4, 6)); */
 
-        System.out.println(first_if_funct(-1,5));
+        /* System.out.println(first_if_funct(-1,5)); */
+
+        //array
+
+        /* int[] age = {3,4,6,8,10};
+        
+        System.out.println(age[0]);//3
+        System.out.println(age[3]);//8
+        System.out.println(age[4]);//10
+        System.out.println(age[5]);//error */
+
+        int[] a=new int[10];
+        for(int i=0;i<=9;i++)
+        {
+            a[i]=input.nextInt();
+        }
+
+        int sum=0;
+        for(int j=0;j<=9;j++)
+        {
+            System.out.println(a[j]);
+            sum+=a[j];
+        }
+        System.out.println("Sum is:"+sum);
+        System.out.println("Average "+sum/10);
+
+        
 
 
         
     }
 
     //functions
-    static void displayMessage()
+   /*  static void displayMessage()
     {
         System.out.println("Welcome to SoB");
     }
@@ -173,5 +199,5 @@ public class NLecture01 {
         else 
             return x;
     }
-
+ */
 }
