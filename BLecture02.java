@@ -145,7 +145,7 @@ public class BLecture02 {
          }
  */
 
-         for(int h=0;h<=23;h++)
+         /* for(int h=0;h<=23;h++)
          {
              for(int m=0;m<=59;m++)
              {
@@ -155,8 +155,11 @@ public class BLecture02 {
                  }
              }
          }
+ */
 
+         //functions and array
 
+         
 
      }
     

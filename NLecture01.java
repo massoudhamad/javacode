@@ -101,6 +101,77 @@ public class NLecture01 {
 
         //nested if and nested loop
 
+        /* int a,b,c;
+        a=input.nextInt();
+        b=input.nextInt();
+        c=input.nextInt();
 
+        if(a>b)
+        {
+            if(a>c)
+                System.out.println(a+" is maximum number");
+            else
+                System.out.println(c+" is maximum number");
+        }
+        else 
+        {
+            if(b>c)
+                System.out.println(b+" is maximum number");
+            else 
+                System.out.println(c+" is maximum number");
+        }
+ */
+        //nested loop
+        /* for(int h=0;h<=23;h++)
+        {
+            for(int m=0;m<=59;m++)
+            {
+                for(int s=0;s<=59;s++)
+                {
+                    System.out.println(h+":"+m+":"+s);
+                }
+            }
+        } */
+        //calling function
+        /* displayMessage();
+
+        System.out.println("Summation of two Numbers is: "+calculateSum(4, 6)); */
+
+        System.out.println(first_if_funct(-1,5));
+
+
+        
     }
+
+    //functions
+    static void displayMessage()
+    {
+        System.out.println("Welcome to SoB");
+    }
+
+    static int calculateSum(int n1,int n2)
+    {
+        return n1+n2;
+    }
+
+    static double firstFunction(int x,int y)
+    {
+        return ((y*y)/x+Math.sqrt(x)*y);
+    }
+
+    static double secondFunction(int x,int y)
+    {
+        return Math.pow((x+2),3)+y;
+    }
+
+    static double first_if_funct(int x,int y)
+    {
+        if(x>0)
+            return firstFunction(x, y);
+        else if(x<0)
+            return secondFunction(x, y);
+        else 
+            return x;
+    }
+
 }
