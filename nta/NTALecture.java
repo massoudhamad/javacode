@@ -22,7 +22,7 @@ public class NTALecture {
         else 
             System.out.println("F"); */
 
-        int day = input.nextInt();
+        /* int day = input.nextInt();
         switch(day)
         {
             case 1:
@@ -36,6 +36,28 @@ public class NTALecture {
             break;
             default:
             System.out.println("Invalid day");
+        } */
+
+        int a,b,c;
+        System.out.println("Enter value of a: ");
+        a=input.nextInt();
+        System.out.println("Enter value of b: ");
+        b=input.nextInt();
+        System.out.println("Enter value of c: ");
+        c=input.nextInt();
+        if(a>b)
+        {
+            if(a>c)
+                System.out.println(a+" is a maximum number");
+            else 
+                System.out.println(c+" is a maximum number");
+        }
+        else 
+        {
+            if(b>c)
+                System.out.println(b+" is a maximum number");
+            else 
+                System.out.println(c+" is a maximum number");
         }
             
         
