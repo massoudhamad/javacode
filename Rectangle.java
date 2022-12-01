@@ -55,11 +55,9 @@ public class Rectangle
         Rectangle rect = new Rectangle();
         Rectangle rect2 = new Rectangle(40.0f,30.0f);
 
-
         System.out.println("Area of Rectangle(default): "+rect.area());
         System.out.println("Area of Rectangle: "+rect2.area());
         System.out.println("Perimeter of Rectangle: "+rect2.perimeter());
-
     }
 
 }

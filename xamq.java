@@ -3,7 +3,7 @@ public class ConvertDistance {
 public static void main(String[] args) {
 double m;
 Scanner keyboard = new Scanner(System.in)
-System.out.println(“To convert from miles to kilometers:);
+System.out.println("To convert from miles to kilometers:");
 System.out.println("Enter a distance followed by 'M' or 'm'");
 System.out.println(" or");
 System.out.println("To convert from kilometers to miles:");
@@ -21,9 +21,9 @@ System.out.println(m + " miles is equal to " + k + " kilometers");
 userInput = userInput.replaceAll("m", "");
 k = Double.parseDouble(userInput);
 m = (k/1.6)
-System.out.println(k " kilometers is equal to " + m + " miles");
+System.out.println(k +" kilometers is equal to " + m + " miles");
 } else {
-System.out.println(Invalid input”);
+System.out.println("Invalid input");
 System.exit(-1);
 } // end of if
 System.exit(0);
