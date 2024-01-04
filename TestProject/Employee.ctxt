@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Employee
+comment0.text=\n\ Write\ a\ description\ of\ class\ Employee\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=firstName\ lastName\ salary
+comment1.target=Employee(java.lang.String,\ java.lang.String,\ int)
+comment2.params=firstName
+comment2.target=void\ setFirstName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getFirstName()
+comment4.params=lastName
+comment4.target=void\ setLastName(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getLastName()
+comment6.params=salary
+comment6.target=void\ setSalary(int)
+comment7.params=
+comment7.target=int\ getSalary()
+comment8.params=
+comment8.target=int\ calculateAnnualSalary()
+comment9.params=
+comment9.target=double\ calculate10Raise()
+numComments=10
