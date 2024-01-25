@@ -8,28 +8,24 @@ public class MovablePoints implements Movable {
 
     @Override
     public void moveDown() {
-        // TODO Auto-generated method stub
         y++;
 
     }
 
     @Override
     public void moveLeft() {
-        // TODO Auto-generated method stub
         x--;
 
     }
 
     @Override
     public void moveRight() {
-        // TODO Auto-generated method stub
         x++;
 
     }
 
     @Override
     public void moveUp() {
-        // TODO Auto-generated method stub
         y--;
     }
 
